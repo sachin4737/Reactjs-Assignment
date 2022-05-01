@@ -1,0 +1,47 @@
+.input_wrapper {
+    /* border: 1px solid red; */
+    /* width: 90%; */
+    margin: 10px auto 5px;
+    padding: 10px 0;
+    overflow: hidden;
+}
+.inputField {
+    width: 100%;
+    padding: 5px 20px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.7);
+    outline: none;
+}
+/* .input_wrapper input[type=text]:focus,
+.input_wrapper input[type=password]:focus {
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid rgba(0, 166, 255, 0.7);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.7);
+    
+} */
+.input_wrapper input[type=button]{
+    all: unset;
+    width: 40%;
+    padding: 5px 20px;
+    background: rgb(0, 166, 255);
+    color: white;
+    border-radius: 10px;
+}
+.remember {
+    display: flex;
+    justify-content: space-between;
+}
+input.errInput {
+    border-bottom: 2px solid red ;
+}
+input.noerrInput {
+    border-bottom: 2px solid green ;
+}
+.errMsg {
+    color: red;
+    margin: 0;
+    font-size: 12px;
+    text-align: left;
+}

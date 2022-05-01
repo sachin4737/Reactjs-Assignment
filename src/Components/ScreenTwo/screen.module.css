@@ -1,0 +1,79 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 50px;
+    width: 50px;
+}
+
+.searchBox {
+    position: relative;
+}
+
+.searchIcon,
+.cameraIcon {
+    position: absolute;
+    top: 5px;
+}
+
+.searchIcon {
+    left: 5px;
+}
+
+.cameraIcon {
+    vertical-align: middle;
+    right: 7px;
+    padding-left: 10px;
+    border-left: 1px solid #000;
+}
+
+
+
+
+/* -------------------- product card css -------- */
+.imgBox {
+    width: 100%;
+    display: block;
+    max-height: 150px;
+    overflow: hidden;
+    position: relative;
+} 
+
+
+.imgBox img{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%) scale(0.4);
+    aspect-ratio: 0.5;
+}
+
+
+.counterBox {
+    text-align: center;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 18px;
+    background: rgb(240, 240, 240);
+    max-width: fit-content;
+    margin: auto;
+}
+
+.counterBox input[type=button]{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.counterBox input[type=text]{
+border: none;
+text-align: center;
+}
+
+.check{
+    text-align: center;
+}
+.check button{
+    padding: 10px 80px;
+}
