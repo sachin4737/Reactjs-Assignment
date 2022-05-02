@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Reactjs-Assignment/static/css/main.8f71c480.css",
+    "main.js": "/Reactjs-Assignment/static/js/main.07616f89.js",
+    "static/js/787.d0fbee60.chunk.js": "/Reactjs-Assignment/static/js/787.d0fbee60.chunk.js",
+    "static/media/shopping-cart.png": "/Reactjs-Assignment/static/media/shopping-cart.484781026a6300fe1105.png",
+    "index.html": "/Reactjs-Assignment/index.html",
+    "main.8f71c480.css.map": "/Reactjs-Assignment/static/css/main.8f71c480.css.map",
+    "main.07616f89.js.map": "/Reactjs-Assignment/static/js/main.07616f89.js.map",
+    "787.d0fbee60.chunk.js.map": "/Reactjs-Assignment/static/js/787.d0fbee60.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f71c480.css",
+    "static/js/main.07616f89.js"
+  ]
+}
